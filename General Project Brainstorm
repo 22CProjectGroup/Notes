@@ -1,0 +1,28 @@
+Notes:
+
+virtual BaseCar
+- Has to have protected members
+- used and new car will have to be dynamically allocated, wont know which one user will want during runtime
+Heap (Priority Queue)
+- Ordered by Priority 
+- Viewable to employee only, organized by priority (lowest number to highest, lowest number being the highest priority)
+- Formula for calculating priority:
+  P(x, t) = xt where x exists on [1, 3] and t is the number of seconds since 1976 (<ctime>)
+   the bigger P is, the lesser its priority. x is the priority constant, where 1 is the highest
+   priority choice and 3 is the lowest:
+   1. Express pick up
+   2. Priority pick up
+   3. Regular pick up
+- Heap will rely on Order class for relating the BaseCar class with its priority number
+- will have to instantiate an Order object inside pushPriority(o: BaseCar, s: int)
+- this will be templated so that vector<queuedata> will take in a used or new car class object
+
+Employee 
+- will set a bool if its used or not when adding a car into BST
+
+Order
+- private instance members will consist of a BaseCar object and an int for the priority number
+- basic setter and getter methods
+
+  
+
