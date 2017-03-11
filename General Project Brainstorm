@@ -36,5 +36,8 @@ Order
 - private instance members will consist of a BaseCar object and an int for the priority number
 - basic setter and getter methods
 
+BST
+- sorting by primary will be overloaded, but sortSecondary will be its own function
+
   
 
