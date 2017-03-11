@@ -1,8 +1,20 @@
 Notes:
 
 virtual BaseCar
-- Has to have protected members
+- the set of cars that are new or used
+- Has to have private members of a used and new cars
+- subtype 
 - used and new car will have to be dynamically allocated, wont know which one user will want during runtime
+- private members:
+  - brand
+  - model
+  - price
+  - fuelCity
+  - fuelHwy
+  - year
+  - bodyStyle
+  - mileage
+  - engineType
 Heap (Priority Queue)
 - Ordered by Priority 
 - Viewable to employee only, organized by priority (lowest number to highest, lowest number being the highest priority)
